@@ -1,0 +1,78 @@
+body{
+    font-size: 20px;
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dfdbdb;
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 0px 20px 0px 20px;
+    box-shadow: 0px 4px 21px 4px rgba(0, 0, 0, 0.4);
+}
+
+.user{
+    width: 31.2%;
+    border-radius: 10px;
+    background-color: rgb(177, 177, 177);
+    margin: 1% 1% 1% 1%;
+    
+}
+
+.card img{
+    margin-left: 7%;
+    width: 70%;
+}
+.card p{
+    width: 100%;
+    margin-left: 65%;
+}
+
+.card ul{
+    list-style: none;
+}
+
+button {
+    font-size: 15px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 3%;
+    width: 150px;
+}
+
+.navContainer {
+    display: flex;
+    flex-direction: row;
+    background-color:blueviolet;
+    box-shadow: 0px 4px 21px 4px rgba(0, 0, 0, 0.4);
+}
+
+.navContainer a{
+    text-decoration: none;
+    color:black;
+}
+
+#biblioteca{
+    margin-left: 20%;
+}
+
+#catalogo{
+    margin-top: 40px;
+    margin-left: 30%;
+}
+
+#cadastroLivro{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.user button{
+    margin-left: 15%;
+    margin-top: 5%;
+}
